@@ -1,0 +1,9 @@
+.sub-navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 231);
+    height: 65px;
+    align-items: center;
+    padding: 10px 350px;
+    text-transform: uppercase;
+}

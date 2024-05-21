@@ -1,0 +1,67 @@
+.singleProducts {
+    display: flex;
+    justify-content: center;
+}
+.singleCardProducts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgb(52, 54, 54);
+    border-radius: 8px;
+    padding: 10px 0 20px;
+    text-align: center;
+    width: 600px;
+    height: 550px;
+    background-color: #3E3E4F;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    transition: 200ms;
+    margin: 50px;
+}
+.singleTitleCard {
+    padding: 10px;
+    font-size: 40px;
+    color: #ffff;
+}
+.singleImgProduct {
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+}
+.singleCategoriCard{
+    color: #3E3E4F;
+    font-size: 25px;
+    background-color: rgb(231, 231, 231);
+    border-radius: 6px;
+    padding: 4px 19px;
+    margin-bottom: 5px;
+}
+.singleDescriptionCard{
+    color: #fff;
+    font-size: 22px;
+}
+.singlePriceCard {
+    font-size: 25px;
+    font-weight: 600;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+.singleButtonCard {
+    font-size: larger;
+    background-color: #636AF6;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 200ms;
+    border-radius: 6px;
+    border: 10px solid transparent;
+    margin-top: 5pxpx;
+}
+
+.singleButtonCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2); 
+}
+

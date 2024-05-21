@@ -1,0 +1,16 @@
+.links,a{
+    font-size: 17px;
+    color: rgb(55, 55, 63);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    text-decoration: none;
+}
+a:hover {
+    color: #fff;
+}
+.links:hover {
+    color: #fff;
+    background-color: rgb(55, 55, 63); 
+    border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  label {
+    color: #555;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+.form-label {
+  font-size: 20px !important;
+  color: #ffffff;
+  
+}
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.btn-contact {
+  background-color: #636AF6;
+  color: #ffffff;
+  font-size: 20px;
+  border-color: transparent;
+  padding: 5px;
+  width: 150px;
+  border-radius: 8px;
+  transition: filter 0.9s ease;
+}
+.btn-contact:hover {
+  transform: scale(1.08);
+}
+
+.privacidad {
+  padding-top: 15px;
+  color: #ffffff;
+  font-size: 13px;
+}
+.form-control{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  
+}
